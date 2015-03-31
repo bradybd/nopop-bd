@@ -10,7 +10,7 @@ import Chord from 'stagas/chord/1.1.0';
 import Chords from 'stagas/chords';
 import Nopop from './index';
 
-var base = oct(6);
+var base = oct(2);
 var chord = Chord(Saw, 28);
 var progr = ['Chdim7','Gmaj9','A#min11','Abmin9'].map(Chords);
 var sin = Sin(16);
